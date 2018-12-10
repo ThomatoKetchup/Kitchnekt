@@ -19,16 +19,14 @@
   <ion-grid>
     <ion-title>Recettes possibles</ion-title>
     <ion-row>
-        <ion-col col-6 *ngFor="let recipe of tabRecipe" class="suggestioncard">
-          <ion-card>
-            <img src="{{recipe.imageUrl}}"/>
+        <ion-col col-6 *ngFor="let recipe of tabRecipe" >
+          <ion-card id="suggestioncard">
+            <img src="{{ recipe.imageUrl}}"/>
             <ion-card-content>
               <ion-card-title>
-                {{recipe.name}}
-              </ion-card-title>
+                {{(recipe.name.length>44)? (recipe.name | slice:0:44)+'...':(recipe.name) }}              </ion-card-title>
             </ion-card-content>
           </ion-card>
-          <div>{{recipe.name}}</div>
         </ion-col>
     </ion-row>
   </ion-grid>

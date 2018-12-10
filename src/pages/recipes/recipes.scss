@@ -2,6 +2,38 @@ page-recipes {
 
 }
 
-.suggestioncard{
-
+.card-title-md{
+  font-size: 1em;
 }
+#suggestioncard{
+  width: calc(105% - 20px);}
+
+ion-col.col {
+  padding: 0px;
+}
+
+ion-grid.grid {
+  margin-left: -5px;
+}
+
+ion-card-content.card-content.card-content-md {
+  padding: 0px 8px;
+  height: 70px;
+}
+
+/*
+
+ion-card{
+  width:20px;
+}
+
+.grid{
+  margin-left: -10px;
+}
+
+
+
+.card-content-md {
+  padding: 1px 3px;
+}*/
+
