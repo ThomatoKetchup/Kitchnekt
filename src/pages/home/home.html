@@ -17,8 +17,17 @@
 
 
   <ion-slides pager="true" >
+    <ion-slide>
+      <ion-card (click)="pushPage()">
+        <img id="cover-image" src="assets/imgs/Courgette.jpg">
+        <ion-card-content>
+          <ion-card-title>Gratin de courgettes</ion-card-title>
+          1 ingrédient manquant
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
   <ion-slide>
-    <ion-card>
+    <ion-card (click)="pushPage()">
       <img id="cover-image" src="assets/imgs/sandwish.jpg">
       <ion-card-content>
         <ion-card-title>Club Sandwich</ion-card-title>

@@ -12,6 +12,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FoodServiceProvider } from '../providers/food-service/food-service';
 import {CuisinePage} from "../pages/cuisine/cuisine";
+import {RecettePage} from "../pages/recette/recette";
+
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import {CuisinePage} from "../pages/cuisine/cuisine";
     ContactPage,
     HomePage,
     CuisinePage,
+      RecettePage,
     TabsPage
   ],
   imports: [
@@ -33,6 +36,7 @@ import {CuisinePage} from "../pages/cuisine/cuisine";
     ContactPage,
     HomePage,
     CuisinePage,
+      RecettePage,
     TabsPage
   ],
   providers: [
