@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {RecettePage} from "../recette/recette";
+import {CuisinePage} from "../cuisine/cuisine";
 
 
 
@@ -17,8 +18,12 @@ export class HomePage {
 
   }
 
-pushPage(){
+pushRecette(){
   this.navCtrl.push(RecettePage)
 }
+
+pushCuisine(){
+    this.navCtrl.push(CuisinePage)
+  }
 
 }

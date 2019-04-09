@@ -18,7 +18,7 @@
 
   <ion-slides pager="true" >
     <ion-slide>
-      <ion-card (click)="pushPage()">
+      <ion-card (click)="pushRecette()">
         <img id="cover-image" src="assets/imgs/Courgette.jpg">
         <ion-card-content>
           <ion-card-title>Gratin de courgettes</ion-card-title>
@@ -27,7 +27,7 @@
       </ion-card>
     </ion-slide>
   <ion-slide>
-    <ion-card (click)="pushPage()">
+    <ion-card>
       <img id="cover-image" src="assets/imgs/sandwish.jpg">
       <ion-card-content>
         <ion-card-title>Club Sandwich</ion-card-title>
@@ -54,7 +54,7 @@
     <ion-row>
       <ion-col>
         <div>
-          <ion-card class="cuisine">
+          <ion-card class="cuisine" (click)="pushCuisine()">
 
           <ion-card-content  style="background: #ED6F43;">
             <ion-card-title>Lave Vaisselle</ion-card-title>
