@@ -13,6 +13,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FoodServiceProvider } from '../providers/food-service/food-service';
 import {CuisinePage} from "../pages/cuisine/cuisine";
 import {RecettePage} from "../pages/recette/recette";
+import {DeroulementRecettePage} from "../pages/deroulement-recette/deroulement-recette";
 
 
 @NgModule({
@@ -22,8 +23,9 @@ import {RecettePage} from "../pages/recette/recette";
     ContactPage,
     HomePage,
     CuisinePage,
-      RecettePage,
-    TabsPage
+    RecettePage,
+    TabsPage,
+    DeroulementRecettePage
   ],
   imports: [
     BrowserModule,
@@ -36,8 +38,9 @@ import {RecettePage} from "../pages/recette/recette";
     ContactPage,
     HomePage,
     CuisinePage,
-      RecettePage,
-    TabsPage
+    RecettePage,
+    TabsPage,
+      DeroulementRecettePage
   ],
   providers: [
     StatusBar,

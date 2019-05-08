@@ -1,5 +1,9 @@
 page-home {
-
+  ion-slides {
+    --bullet-background: white;
+    --bullet-background-active: yellow;
+    height: 50%;
+  }
 }
 .title{
   margin-top: 10px;
@@ -46,11 +50,6 @@ width: 100%;
 .card-content{
   text-align: left;
   color: #4BA69D ;
-}
-ion-slides {
-  --bullet-background: white;
-  --bullet-background-active: yellow;
-  height: 50%;
 }
 
 .cuisine{
