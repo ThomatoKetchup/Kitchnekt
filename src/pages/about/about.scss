@@ -1,5 +1,9 @@
 page-about {
-
+  ion-slides {
+    --bullet-background: white;
+    --bullet-background-active: yellow;
+    height: 50%;
+  }
 }
 #card-mini{
   border-radius: 2px;
